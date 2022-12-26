@@ -1,0 +1,1 @@
+gsutil cat gs://<bucket-name>/<folder-name>/filename.txt | wc -l
