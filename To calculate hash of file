@@ -1,0 +1,4 @@
+gsutil automatically validates hash of file while downloading and uploading.
+Still there are scenarios where we need to calculate it separately for validation
+
+gsutil -m gs://<filepath>
